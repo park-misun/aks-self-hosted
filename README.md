@@ -1,6 +1,10 @@
 # az-devops-k8s-agent
 Self-Hosted Azure Devops Agent for kubernetes
 
+## docker connection test (by local console)
+docker run -d -p 80:80 docker/getting-started 
+
+
 ## Setup via pre-built image
 Docker Image : shubhamranjan/az-devops-k8s-agent:latest
 
