@@ -14,7 +14,11 @@ docker image build -t <acr url>/<image name> .(Dockerfile)
 
 
 ### 02. build golden image (java, python, .net)
-
+        
+        
+## 2. Config AKS
+        ### 01. create namespace for sh agent
+       kubectl create namespace <insert-namespace-name-here>
 
 ## Setup via pre-built image
 Docker Image : shubhamranjan/az-devops-k8s-agent:latest
