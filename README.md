@@ -5,9 +5,13 @@ Self-Hosted Azure Devops Agent for kubernetes
 docker run -d -p 80:80 docker/getting-started 
 
 ## 1. Create Docker Base & Golden Image 
-### 01. build base image(https://docs.microsoft.com/ko-kr/azure/devops/pipelines/agents/docker?view=azure-devops)
+### 01. build base image
+(https://docs.microsoft.com/ko-kr/azure/devops/pipelines/agents/docker?view=azure-devops)
+
 docker image build -t agentbaseimage .
+
 docker image build -t <acr url>/<image name> .(Dockerfile)
+
 
 ### 02. build golden image (java, python, .net)
 
